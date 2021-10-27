@@ -1,5 +1,5 @@
 # 天天向上
-> Web派 - 前端能力提升计划实施细则
+> 前端训练营 - 前端能力提升计划实施细则
 > [范例项目](https://github.com/su37josephxia/ranshu-frontend-studybook)
 
 
