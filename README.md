@@ -15,7 +15,7 @@
 ## 课前准备
 
 - 开通billbill、掘金、github账号
-- 在github上启动xxx-log日志项目
+- 在github上启动xxx-studybook日志项目
 - 熟悉github提pull request流程  [📺指导](https://www.bilibili.com/video/BV1Ev411J77h/)
 
 
