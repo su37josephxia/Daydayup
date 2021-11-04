@@ -1,0 +1,20 @@
+{
+  "name": "daydayup",
+  "version": "1.0.0",
+  "description": "> Web派 - 前端能力提升计划实施细则",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su37josephxia/Daydayup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/su37josephxia/Daydayup/issues"
+  },
+  "homepage": "https://github.com/su37josephxia/Daydayup#readme"
+}
