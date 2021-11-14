@@ -3,52 +3,52 @@
  */
 const map = {
   front: {
-    start: "// 前置代码 start",
-    end: "// 前置代码 end",
+    start: '// 前置代码 start',
+    end: '// 前置代码 end',
     code: [],
   },
   template: {
-    start: "// 模板 start",
-    end: "// 模板 end",
+    start: '// 模板 start',
+    end: '// 模板 end',
     code: [],
   },
   answer: {
-    start: "// 答案 start",
-    end: "// 答案 end",
+    start: '// 答案 start',
+    end: '// 答案 end',
     code: [],
   },
   back: {
-    start: "// 后置代码 start",
-    end: "// 后置代码 end",
+    start: '// 后置代码 start',
+    end: '// 后置代码 end',
     code: [],
   },
-};
+}
 function getTemplate(template) {
-  const templateArr = template.split("\n");
+  const templateArr = template.split('\n')
   templateArr.forEach((item) => {
     for (let key in map) {
       if (item.indexOf(map[key].end) !== -1) {
-        map[key].active = false;
+        map[key].active = false
       } else if (map[key].active) {
-        map[key].code.push(item);
+        map[key].code.push(item)
       } else if (item.indexOf(map[key].start) !== -1) {
-        map[key].active = true;
+        map[key].active = true
       }
     }
-  });
+  })
   map.template.code = map.template.code.filter((item) => {
-    const arr = map.answer.code.concat([map.answer.start, map.answer.end]);
+    const arr = map.answer.code.concat([map.answer.start, map.answer.end])
     const result = arr.find((item2) => {
-      return item.indexOf(item2) !== -1;
-    });
-    return !result;
-  });
+      return item.indexOf(item2) !== -1
+    })
+    return !result
+  })
   return {
-    front: map.front.code.join("\n"),
-    template: map.template.code.join("\n"),
-    answer: map.answer.code.join("\n"),
-    back: map.back.code.join("\n"),
-  };
+    front: map.front.code.join('\n'),
+    template: map.template.code.join('\n'),
+    answer: map.answer.code.join('\n'),
+    back: map.back.code.join('\n'),
+  }
 }
 
 const result = getTemplate(`
@@ -75,6 +75,6 @@ function sort(arr) {
 // 后置代码 start
 console.log(sort(input))
 // 后置代码 end
-    `);
+    `)
 
-console.log(result);
+console.log(result)
