@@ -4,7 +4,7 @@ describe("代码模板分离", () => {
     // 前置代码 start
     var input = [1,3,2]
     // 前置代码 end
-    // 模板start
+    // 模板 start
     function sort(arr) {
         // 答案 start
         var len = arr.length;
@@ -17,7 +17,7 @@ describe("代码模板分离", () => {
                 }
             }
         }
-    // 答案
+        // 答案 end
         return arr;
     }
     // 模板 end
@@ -28,11 +28,9 @@ describe("代码模板分离", () => {
 
     const parse = require('../index')
     const {front, answer, template, back} = parse(code)
-    expect(front).toBe(`var input = [1,3,2]`)
-    expect(answer).toBe( `
-    function sort(arr) {
-        // 答案 start
-        var len = arr.length;
+    expect(front).toBe(`    var input = [1,3,2]
+`)
+    expect(answer).toBe( `        var len = arr.length;
         for (var i = 0; i < len - 1; i++) {
             for (var j = 0; j < len - 1 - i; j++) {
                 if (arr[j] > arr[j+1]) {        // 相邻元素两两对比
@@ -41,12 +39,14 @@ describe("代码模板分离", () => {
                     arr[j] = temp;
                 }
             }
-        }`)
-    expect(template).toBe(`function sort(arr) {
-
-    return arr;
-}`)
-    expect(back).toBe(`console.log(sort(input))`)
+        }
+`)
+    expect(template).toBe(`    function sort(arr) {
+        return arr;
+    }
+`)
+    expect(back).toBe(`    console.log(sort(input))
+`)
   });
 
   // TODO: 异常系 所有违反规定的依赖抛error
