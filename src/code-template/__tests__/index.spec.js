@@ -1,5 +1,5 @@
 describe("代码模板分离", () => {
-  test('正常系',() => {
+  test("正常系", () => {
     const code = `
     // 前置代码 start
     var input = [1,3,2]
@@ -26,11 +26,10 @@ describe("代码模板分离", () => {
     // 后置代码 end
         `;
 
-    const parse = require('../index')
-    const {front, answer, template, back} = parse(code)
-    expect(front).toBe(`var input = [1,3,2]`)
-    expect(answer).toBe( `
-    function sort(arr) {
+    const parse = require("../index");
+    const { front, answer, template, back } = parse(code);
+    expect(front).toBe(`var input = [1,3,2]`);
+    expect(answer).toBe(`function sort(arr) {
         // 答案 start
         var len = arr.length;
         for (var i = 0; i < len - 1; i++) {
@@ -41,12 +40,12 @@ describe("代码模板分离", () => {
                     arr[j] = temp;
                 }
             }
-        }`)
+        }`);
     expect(template).toBe(`function sort(arr) {
 
     return arr;
-}`)
-    expect(back).toBe(`console.log(sort(input))`)
+}`);
+    expect(back).toBe(`console.log(sort(input))`);
   });
 
   // TODO: 异常系 所有违反规定的依赖抛error
