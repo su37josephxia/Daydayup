@@ -1,6 +1,6 @@
-describe("代码模板分离", () => {
-  test('正常系', () => {
-    const code = `
+// describe("代码模板分离", () => {
+//   test('正常系', () => {
+const code = `
     // 前置代码 start
     var input = [1,3,2]
     // 前置代码 end
@@ -26,21 +26,21 @@ describe("代码模板分离", () => {
     // 后置代码 end
         `;
 
-    // const parse = require('../theseus')
-    const parse = require('../theseus.machine')
-    const {
-      front,
-      template,
-      answer,
-      back
-    } = parse(code)
-    console.log(
-      'front=>' + front + '\n',
-      'template=>' + template + '\n',
-      'answer=>' + answer + '\n',
-      'back=>' + back + '\n'
-    );
-  });
+// const parse = require('../theseus.if')
+const parse = require('../theseus.machine')
+const {
+  front,
+  template,
+  answer,
+  back
+} = parse(code)
+console.log(
+  'front=>' + front + '\n',
+  'template=>' + template + '\n',
+  'answer=>' + answer + '\n',
+  'back=>' + back + '\n'
+);
+// });
 
-  // TODO: 异常系 所有违反规定的依赖抛error
-});
+//   // TODO: 异常系 所有违反规定的依赖抛error
+// });
