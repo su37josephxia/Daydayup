@@ -32,6 +32,10 @@ let fsm = new StateMachine({
       name: 'back',
       from: '// 后置代码 start',
       to: '// 后置代码 end'
+    }, {
+      name: 'backed',
+      from: '// 后置代码 end',
+      to: 'stop'
     },
   ]
 });
@@ -65,34 +69,26 @@ module.exports = (code) => {
       map.set(state, map.get(state).concat(v))
     }
   });
+
   let template = map.get('template');
-  let tem = template;
-
-
-
-
-
   for (let i = 0; i < template.length;) {
     if (template[i].indexOf(fsm2.state) != -1 && fsm2.transitions()[0]) {
       state = fsm2.transitions()[0];
-      console.log(state);
       fsm2[state]()
-      tem.splice(i, 1)
-    } else if (map.get(state) != undefined && state != 'stop') {
+      template.splice(i, 1)
+    } else if (fsm2.state == '// 答案 end') {
       map.set(state, map.get(state).concat(template[i]))
-      tem.splice(i, 1)
+      template.splice(i, 1)
+    } else {
+      i++
     }
-    i++
   }
 
 
-
-
-
   return {
-    front: '',
-    template: '',
-    answer: '',
-    back: ''
+    front: map.get('front').join('\n'),
+    template: map.get('template').join('\n'),
+    answer: map.get('answer').join('\n'),
+    back: map.get('back').join('\n')
   }
 }
