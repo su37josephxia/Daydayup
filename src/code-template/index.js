@@ -23,6 +23,7 @@ const map = {
     code: [],
   },
 };
+
 function getTemplate(template) {
   const templateArr = template.split("\n");
   templateArr.forEach((item) => {
