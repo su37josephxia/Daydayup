@@ -17,7 +17,7 @@ describe("代码模板分离", () => {
                 }
             }
         }
-        // 答案 end
+    // 答案 end
         return arr;
     }
     // 模板 end
@@ -28,8 +28,8 @@ describe("代码模板分离", () => {
 
     const parse = require('../index')
     const {front, answer, template, back} = parse(code)
-    expect(front).toBe(`    var input = [1,3,2]
-`)
+
+    expect(front).toBe(`    var input = [1,3,2]`)
     expect(answer).toBe( `        var len = arr.length;
         for (var i = 0; i < len - 1; i++) {
             for (var j = 0; j < len - 1 - i; j++) {
@@ -39,14 +39,11 @@ describe("代码模板分离", () => {
                     arr[j] = temp;
                 }
             }
-        }
-`)
+        }`)
     expect(template).toBe(`    function sort(arr) {
         return arr;
-    }
-`)
-    expect(back).toBe(`    console.log(sort(input))
-`)
+    }`)
+    expect(back).toBe(`    console.log(sort(input))`)
   });
 
   // TODO: 异常系 所有违反规定的依赖抛error
