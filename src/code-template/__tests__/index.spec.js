@@ -26,7 +26,7 @@ describe("代码模板分离", () => {
     // 后置代码 end
         `;
 
-    const parse = require("../index");
+    const parse = require("../coolara");
     const { front, answer, template, back } = parse(code);
     expect(front).toBe(`var input = [1,3,2]`);
     expect(answer).toBe(`function sort(arr) {
