@@ -30,31 +30,31 @@
   
   return res
 }
+module.exports = getTemplate
+// const result = getTemplate(`
+// // 前置代码 start
+// var input = [1,3,2]
+// // 前置代码 end
+// // 模板 start
+// function sort(arr) {
+//     // 答案 start
+//     var len = arr.length;
+//     for (var i = 0; i < len - 1; i++) {
+//         for (var j = 0; j < len - 1 - i; j++) {
+//             if (arr[j] > arr[j+1]) {        // 相邻元素两两对比
+//                 var temp = arr[j+1];        // 元素交换
+//                 arr[j+1] = arr[j];
+//                 arr[j] = temp;
+//             }
+//         }
+//     }
+// // 答案 end
+//     return arr;
+// }
+// // 模板 end
+// // 后置代码 start
+// console.log(sort(input))
+// // 后置代码 end
+//     `);
 
-const result = getTemplate(`
-// 前置代码 start
-var input = [1,3,2]
-// 前置代码 end
-// 模板 start
-function sort(arr) {
-    // 答案 start
-    var len = arr.length;
-    for (var i = 0; i < len - 1; i++) {
-        for (var j = 0; j < len - 1 - i; j++) {
-            if (arr[j] > arr[j+1]) {        // 相邻元素两两对比
-                var temp = arr[j+1];        // 元素交换
-                arr[j+1] = arr[j];
-                arr[j] = temp;
-            }
-        }
-    }
-// 答案 end
-    return arr;
-}
-// 模板 end
-// 后置代码 start
-console.log(sort(input))
-// 后置代码 end
-    `);
-
-console.log(result);
+// console.log(result);
