@@ -57,35 +57,10 @@ module.exports = (code) => {
   map.set('answer', ans)
   map.set('template', tem)
 
-
-
-  let frontArr = map.get('front');
-  let front = ''
-  for (let i = 0; i < frontArr.length; i++) {
-    front = front + frontArr[i] + '\n'
-  }
-  let tempArr = map.get('template');
-  let template = ''
-  for (let i = 0; i < tempArr.length; i++) {
-    template = template + tempArr[i] + '\n'
-  }
-  let ansArr = map.get('answer');
-  let answer = ''
-  for (let i = 0; i < ansArr.length; i++) {
-    answer = answer + ansArr[i] + '\n'
-  }
-  let backArr = map.get('back');
-  let back = ''
-  for (let i = 0; i < backArr.length; i++) {
-    back = back + backArr[i] + '\n'
-  }
-
-
-
   return {
-    front,
-    template,
-    answer,
-    back
+    front: map.get('front').join('\n'),
+    template: map.get('template').join('\n'),
+    answer: map.get('answer').join('\n'),
+    back: map.get('back').join('\n')
   }
 }
