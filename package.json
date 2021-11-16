@@ -4,7 +4,7 @@
   "description": "> Web派 - 前端能力提升计划实施细则",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/su37josephxia/Daydayup/issues"
   },
-  "homepage": "https://github.com/su37josephxia/Daydayup#readme"
+  "homepage": "https://github.com/su37josephxia/Daydayup#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
