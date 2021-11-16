@@ -19,5 +19,8 @@
   "homepage": "https://github.com/su37josephxia/Daydayup#readme",
   "devDependencies": {
     "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "javascript-state-machine": "^3.1.0"
   }
 }
