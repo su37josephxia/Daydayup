@@ -53,7 +53,7 @@ module.exports = (template) => {
 
         arr.forEach(line => {
             currentLine = line
-            state = state(line);
+            state = state();
         })
 
         if(state !== End)throw new Error('End error')
