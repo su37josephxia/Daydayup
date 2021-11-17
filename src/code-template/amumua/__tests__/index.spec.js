@@ -29,9 +29,7 @@ describe("代码模板分离", () => {
       const parse = require('../index')
       const {front, answer, template, back} = parse(code)
       expect(front).toBe(`var input = [1,3,2]`)
-      expect(answer).toBe( `function sort(arr) {
-          // 答案 start
-          var len = arr.length;
+      expect(answer).toBe( `var len = arr.length;
           for (var i = 0; i < len - 1; i++) {
               for (var j = 0; j < len - 1 - i; j++) {
                   if (arr[j] > arr[j+1]) {        // 相邻元素两两对比
@@ -42,7 +40,7 @@ describe("代码模板分离", () => {
               }
           }`)
       expect(template).toBe(`function sort(arr) {
-  
+
           return arr;
       }`)
       expect(back).toBe(`console.log(sort(input))`)

@@ -110,11 +110,11 @@ function formatResult() {
  * @date 2021-11-17
  */
 function replaceString(str, flag, index) {
-    str = trimString(str, flag + " " + startFlag + "\n");
+    str = trimString(str, flag + " " + startFlag, true);
     // 嵌套的需要考虑是否有残留
     if (index) {
-        let endStr = trimString(stack[index], flagStack[index] + " " + endFlag + "\n") ;
-        str += "\n" + endStr;
+        let endStr = trimString(stack[index], flagStack[index] + " " + endFlag, false) ;
+        str += endStr;
     }
 
     flagMap.set(flag , str); 
@@ -125,18 +125,15 @@ function replaceString(str, flag, index) {
  * @author amumua
  * @date 2021-11-17
  */
-function trimString(str, flag) {
-    str = str.replace(flag, "");
-    if (str.slice(0, 2) === "\n") {
-        str = str.slice(2);
+function trimString(str, flag, isTrim) {
+    str = str.replace(flag, isTrim ? "" : "\n");
+    if (!isTrim) {
+      return ("*" + str).trim().slice(1);
     }
-
-    // 删除空字符串
-    while(str[0] === "") {
-        str = str.slice(1);
-    }
-
-    return str;
+    str = str.trim();
+    let strArr = str.split("\n");
+    strArr = strArr.filter(item => !!item.trim());
+    return strArr.join("\n");
 }
 
 /**
