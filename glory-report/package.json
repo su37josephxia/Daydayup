@@ -1,0 +1,17 @@
+{
+  "name": "glory-report",
+  "version": "1.0.0",
+  "description": "![Snip20211118_48](https://gitee.com/josephxia/picgo/raw/master/juejin/Snip20211118_48.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "iconv-lite": "^0.6.3",
+    "request": "^2.88.2"
+  }
+}
