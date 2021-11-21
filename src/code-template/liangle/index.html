@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FSM 解析模板</title>
+  <script src="./index.js" type="text/script"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <style>
+    h3 {
+      font-size: 16px;
+      margin: 6px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <button @click="parse()" style="margin-bottom: 10px;">开始解析</button>
+    <div style="display:flex; flex-flow: wrap row; justify-content:space-between;">
+      <div style="flex: 1 600px; margin-bottom:5px;">模板代码</div>
+      <div style="flex: 1 600px; margin-bottom:5px;">当前进度...</div>
+
+      <textarea v-bind:value="template" rows="20" style=" flex: 1 600px;;"></textarea>
+      <textarea :value="temp" rows="20" style=" flex: 1 600px; "></textarea>
+
+      <div style="flex: 1 600px; margin-bottom:10px;"></div>
+      <div style="flex: 1 600px; margin-top:5px;">栈内标签...</div>
+    </div>
+
+    <div v-for="element in stack[0].children" style="margin-left: 720px; height:100wh;">
+      <ul v-if="element.type === 'element'" style="list-style-type: none">
+        <h3>{{ element.tagName }}</h3>
+        <li v-for="child in element.children">
+          {{ child.content }}
+          <div style="margin-left: 30px;">
+            <h3>{{child.tagName}}</h3>
+            <div v-for="answer in child.children">
+              <div v-for="content in answer.content.split('\n')">
+                {{ content }}<br>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
+<script>
+  const FRONT_START = '前置代码start'
+  const FRONT_END = '前置代码end'
+  const TEMPLATE_START = '模板start'
+  const TEMPLATE_END = '模板end'
+  const ANSWER_START = '答案start'
+  const ANSWER_END = '答案end'
+  const BACK_START = '后置代码start'
+  const BACK_END = '后置代码end'
+
+  const tagNames = [
+    FRONT_START,
+    FRONT_END,
+    TEMPLATE_START,
+    TEMPLATE_END,
+    ANSWER_START,
+    ANSWER_END,
+    BACK_START,
+    BACK_END
+  ]
+
+  var app = new Vue({
+    el: '#app',
+    data: {
+      temp: '',
+      stack: [{
+        type: 'template',
+        children: []
+      }],
+      currentToken: {
+        tagName: '',
+        content: ''
+      },
+      currentTextNode: {
+        type: 'text',
+        content: ''
+      }, //当前处理的文本节点
+      template: `
+        // 前置代码 start
+        var input = [1,3,2]
+        // 前置代码 end
+
+        // 模板 start
+        function maxDepth(root) {
+          // 答案 start
+          if (!root) return 0 // 递归退出条件，树为空时返回0
+
+          return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1
+          // 答案 end
+        }
+        // 模板 end
+        // 后置代码 start
+        console.log(sort(input))
+        // 后置代码 end`
+    },
+    methods: {
+      emit(token) {
+        let top = this.stack[this.stack.length - 1];
+
+        if (token.type === 'startTag') {
+          let element = {
+            type: 'element',
+            children: []
+          }
+
+          element.tagName = token.tagName
+          top.children.push(element)
+          this.stack.push(element)
+
+          this.currentToken = {
+            tagName: '',
+            content: ''
+          }
+
+          this.currentTextNode = null
+        } else if (token.type === 'endTag') {
+          //去掉start、end进行对比，如果相等说明标签开闭正确
+          if (top.tagName.replace('start', '') === token.tagName.replace('end', '')) {
+            this.currentToken = {
+              tagName: '',
+              content: ''
+            }
+            this.stack.pop()
+          } else {
+            throw new Error('标签开始和结束不匹配!')
+          }
+
+          this.currentTextNode = null
+        } else if (token.type === 'text') {
+          if (this.currentTextNode === null) {
+            this.currentTextNode = {
+              type: 'text',
+              content: ''
+            }
+
+            top.children.push(this.currentTextNode)
+          }
+          this.currentTextNode.content += token.content
+        }
+      },
+
+      async sleep() {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            resolve()
+          }, 150);
+        })
+      },
+
+      //解析模板
+      async parse() {
+        let state = this.data //状态机的初始状态为处理数据
+
+        for (let c of this.template) {
+          this.temp += c
+          await this.sleep().then(() => {
+            state = state(c)
+          })
+        }
+      },
+
+      //字符处理状态机
+      data(c) {
+        if (c === '/') {
+          return this.tagOpen(c)
+        } else {
+          this.emit({
+            type: 'text',
+            content: c
+          })
+          return this.data
+        }
+      },
+
+      //标签打开状态机
+      tagOpen(c) {
+        if (c === '/') {
+          this.currentToken.content += c //可能是注释，所以内容先存起来
+
+          if (this.currentToken.content === '/') {
+            return this.tagOpen //如果只有一个反斜杠，则等下一个反斜杠
+          } else {
+            return this.tagName //如果是两个反斜杠则开始处理标签名
+          }
+        }
+
+        throw new Error('格式错误，' / '后面必须是' / '!')
+      },
+
+      //标签名处理状态机
+      tagName(c) {
+        if (c.match(/^[\t ]$/)) { //处理空格，\t：tab\
+          this.currentToken.content += c
+          return this.tagName
+        }
+        if (c === '\n') { //标签解析结束
+          //判断当前是注释还是真正的标签
+          if (tagNames.includes(this.currentToken.tagName)) { //标签
+            //根据tagName设置type类型，如果tagName包含了start则是开始标签，end则为结束标签
+            this.currentToken.type = this.currentToken.tagName.includes('start') ? 'startTag' : 'endTag'
+            this.emit(this.currentToken)
+          } else { //如果是注释，则将当前token的内容加到text节点里，并重置 token
+            this.emit({
+              type: 'text',
+              content: `${this.currentToken.content}
+`
+            })
+            this.currentToken = {
+              tagName: '',
+              content: ''
+            }
+          }
+          return this.data //处理完标签后继续处理数据
+        } else {
+          this.currentToken.tagName += c
+          this.currentToken.content += c
+          return this.tagName
+        }
+      },
+
+      //根据标签名称获取代码
+      getCodeByTagName(root, tagName) {
+        if (!root || !root.children) return ''
+
+        let code = ''
+        const textNodes = root.children.filter(item => item.type === 'text')
+        for (let child of textNodes) {
+          if (root.tagName === tagName) {
+            let tmp = `${child.content.trimRight()}
+`
+            code += tmp
+          }
+        }
+
+        code = code.substring(0, code.length - 1) //去掉最后的换行符
+
+        const tagNodes = root.children.filter(item => item.type !== 'text')
+        for (let child of tagNodes) {
+          code += this.getCodeByTagName(child, tagName)
+        }
+
+        return code
+      }
+    }
+  })
+</script>
