@@ -5,10 +5,6 @@ module.exports = (code) => {
   const answer = code
     .match(/(?<=\/\/ 模板 ?start\n)[\s\S]*(?=\/\/ 答案)/)[0]
     .trim();
-  //   const template = `function sort(arr) {
-
-  //     return arr;
-  // }`;
   const template =
     code.match(/(?<=\/\/ 模板start\n)[\s\S]*(?=\/\/ 答案 ?start)/)[0] +
     code.match(/(?<=\/\/ 答案 ?\n)[\s\S]*(?=\/\/ 模板 ?end)/)[0].trimEnd();
