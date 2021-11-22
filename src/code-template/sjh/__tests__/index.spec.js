@@ -1,5 +1,5 @@
 describe("代码模板分离", () => {
-  test.skip('正常系',() => {
+  test('正常系',() => {
     const code = `
     // 前置代码 start
     var input = [1,3,2]
@@ -17,7 +17,7 @@ describe("代码模板分离", () => {
                 }
             }
         }
-    // 答案 end
+        // 答案 end
         return arr;
     }
     // 模板 end
@@ -41,7 +41,7 @@ describe("代码模板分离", () => {
             }
         }`)
     expect(template).toBe(`    function sort(arr) {
-        return arr;
+                return arr;
     }`)
     expect(back).toBe(`    console.log(sort(input))`)
   });

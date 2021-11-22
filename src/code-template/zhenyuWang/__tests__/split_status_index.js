@@ -1,5 +1,5 @@
 describe("代码模板分离", () => {
-  test.skip('正常系',() => {
+  test('正常系',() => {
     const code = `
     // 前置代码 start
     var input = [1,3,2]
@@ -26,9 +26,8 @@ describe("代码模板分离", () => {
     // 后置代码 end
         `;
 
-    const parse = require('../index')
+    const parse = require('../split_index')
     const {front, answer, template, back} = parse(code)
-
     expect(front).toBe(`    var input = [1,3,2]`)
     expect(answer).toBe( `        var len = arr.length;
         for (var i = 0; i < len - 1; i++) {
@@ -47,4 +46,5 @@ describe("代码模板分离", () => {
   });
 
   // TODO: 异常系 所有违反规定的依赖抛error
+
 });

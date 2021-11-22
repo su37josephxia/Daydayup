@@ -6,9 +6,9 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -23,8 +23,7 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a single command using the runners shell
-    - name: Run Jest
-      uses: stefanoeb/jest-action@1.0.4
-      # with:
-        # Args to jest
-        # jestArgs: # optional
+    - name: Install modules
+      run: yarn
+    - name: Run tests
+      run: yarn test --silent
