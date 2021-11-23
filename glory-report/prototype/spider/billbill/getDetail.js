@@ -1,8 +1,8 @@
 const request = require('request');
-const JSDOM = require('jsdom').JSDOM;
+const { JSDOM } = require("jsdom");
 const zlib = require('zlib');
 
-const url = 'https://www.bilibili.com/video/BV1VS4y1R7n6';
+// const url = 'https://www.bilibili.com/video/BV1VS4y1R7n6';
 
 exports.getDetail = function (url) {
   return new Promise((resolve, reject) => {
