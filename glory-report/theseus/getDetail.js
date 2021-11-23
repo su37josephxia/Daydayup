@@ -34,5 +34,3 @@ exports.getDetail = function (url) {
     });
   })
 }
-
-// getDetail("https://www.bilibili.com/video/BV1dh411p7DL")
