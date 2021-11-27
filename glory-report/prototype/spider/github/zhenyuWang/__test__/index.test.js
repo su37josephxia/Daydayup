@@ -7,7 +7,6 @@ describe("获取github首页掘金文章及B站视频链接", () => {
       // 判断返回值类型
       expect(Array.isArray(articles)).toBe(true)
       expect(Array.isArray(videos)).toBe(true)
-      console.log(articles)
       // 判断数组中链接是否正确
       if(articles.length){
         expect(articles[0].startsWith('https://juejin.cn/post')).toBe(true)
@@ -15,6 +14,8 @@ describe("获取github首页掘金文章及B站视频链接", () => {
       if(videos.length){
         expect(videos[0].startsWith('https://www.bilibili.com/video')).toBe(true)
       }
+    }).catch(err => {
+      console.log('爬取GitHub首页失败',err)
     })
   })
 })
