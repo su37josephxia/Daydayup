@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id='container'>
+    <canvas id='canvas' width="500" height="500"></canvas>
+  </div>
+</body>
+<script>
+  const container = document.getElementById('container');
+  let canvas, ctx, hour, minute, seconds;
+
+  // 设置钟表圆心，宽高一半
+  var canvasRadius = 250;
+  canvas = document.getElementById('canvas');
+  ctx = canvas.getContext('2d');
+
+  // 清空画布
+  function clear() {
+    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+  }
+
+  // 渲染数字
+  function drawNumber() {
+    ctx.font = '36px Arial';
+    ctx.fillStyle = '#667798';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    for (var n = 1; n <= 12; n++) {
+      var theta = ((n - 3) * (Math.PI * 2)) / 12;
+      var x = canvasRadius * 0.7 * Math.cos(theta);
+      var y = canvasRadius * 0.7 * Math.sin(theta);
+      ctx.fillText(n, x, y);
+    }
+  }
+
+  // 渲染时针
+  function drawHours() {
+    ctx.save();
+    var theta = ((hour - 3) * 2 * Math.PI) / 12;
+    ctx.rotate(theta);
+    ctx.beginPath();
+    ctx.moveTo(-15, -5);
+    ctx.lineTo(-15, 5);
+    ctx.lineTo(canvasRadius * 0.5, 1);
+    ctx.lineTo(canvasRadius * 0.5, -1);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function drawMinute() {
+    ctx.save();
+    var theta = ((minute - 15) * 2 * Math.PI) / 60;
+    ctx.rotate(theta);
+    ctx.beginPath();
+    ctx.moveTo(-15, -4);
+    ctx.lineTo(-15, 4);
+    ctx.lineTo(canvasRadius * 0.8, 1);
+    ctx.lineTo(canvasRadius * 0.8, -1);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function drawSecond() {
+    ctx.save();
+    var theta = ((seconds - 15) * 2 * Math.PI) / 60;
+    ctx.rotate(theta);
+    ctx.beginPath();
+    ctx.moveTo(-15, -3);
+    ctx.lineTo(-15, 3);
+    ctx.lineTo(canvasRadius * 0.9, 1);
+    ctx.lineTo(canvasRadius * 0.9, -1);
+    ctx.fillStyle = '#f6c02c';
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function getCurrentTime() {
+    // get current time
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    seconds = date.getSeconds();
+    hours = hours > 12 ? hours - 12 : hours;
+    hour = hours + minutes / 60;
+    minute = minutes + seconds / 60;
+  }
+
+  // 绘制画布
+  function drawScene() {
+    clear();
+    ctx.save();
+    ctx.translate(canvas.width / 2, canvas.height / 2);
+    ctx.beginPath();
+    getCurrentTime();
+    drawNumber();
+    drawHours();
+    drawMinute();
+    drawSecond();
+
+    ctx.restore();
+  }
+
+  const start = () => {
+    drawScene();
+    requestAnimationFrame(start);
+  };
+
+  window.requestAnimationFrame(start);
+
+</script>
+
+</html>
