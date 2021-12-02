@@ -28,6 +28,7 @@ async function _get(uid) {
         title: item.title,
         description: item.description,
         video: `https://www.bilibili.com/video/${item.bvid}`,
+        created: new Date(item.created * 1000)
       })
     });
     count = data.page.count;
