@@ -14,7 +14,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 0
+			"score": 5
 		},
 		{
 			"username": "竹剑道",
@@ -30,7 +30,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 0
+			"score": 10
 		},
 		{
 			"username": "jimixy",
@@ -43,12 +43,32 @@
 		{
 			"username": "欧浪浪_",
 			"score": 0
+		},
+		{
+			"username": "猎豹",
+			"score": 0
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 0
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 5
+		},
+		{
+			"username": "黑起",
+			"score": 5
+		},
+		{
+			"username": "竹剑",
+			"score": 5
 		}
 	],
 	"2021-11-02": [
 		{
 			"username": "liangle8090",
-			"score": 10
+			"score": 15
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
@@ -60,7 +80,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 0
+			"score": 10
 		},
 		{
 			"username": "竹剑道",
@@ -76,7 +96,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 0
+			"score": 25
 		},
 		{
 			"username": "jimixy",
@@ -89,12 +109,32 @@
 		{
 			"username": "欧浪浪_",
 			"score": 0
+		},
+		{
+			"username": "猎豹",
+			"score": 0
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 0
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 10
+		},
+		{
+			"username": "黑起",
+			"score": 10
+		},
+		{
+			"username": "竹剑",
+			"score": 10
 		}
 	],
 	"2021-11-03": [
 		{
 			"username": "liangle8090",
-			"score": 10
+			"score": 15
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
@@ -106,7 +146,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 0
+			"score": 15
 		},
 		{
 			"username": "竹剑道",
@@ -122,7 +162,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 0
+			"score": 35
 		},
 		{
 			"username": "jimixy",
@@ -135,16 +175,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 0
+		},
+		{
+			"username": "猎豹",
+			"score": 5
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 0
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 15
+		},
+		{
+			"username": "黑起",
+			"score": 10
+		},
+		{
+			"username": "竹剑",
+			"score": 20
 		}
 	],
 	"2021-11-04": [
 		{
 			"username": "liangle8090",
-			"score": 20
+			"score": 25
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 110
+			"score": 130
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -152,7 +212,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 0
+			"score": 20
 		},
 		{
 			"username": "竹剑道",
@@ -168,7 +228,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 0
+			"score": 45
 		},
 		{
 			"username": "jimixy",
@@ -181,16 +241,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 5
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 5
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 25
+		},
+		{
+			"username": "黑起",
+			"score": 10
+		},
+		{
+			"username": "竹剑",
+			"score": 30
 		}
 	],
 	"2021-11-05": [
 		{
 			"username": "liangle8090",
-			"score": 20
+			"score": 25
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 140
+			"score": 175
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -198,7 +278,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 0
+			"score": 20
 		},
 		{
 			"username": "竹剑道",
@@ -214,7 +294,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 0
+			"score": 45
 		},
 		{
 			"username": "jimixy",
@@ -227,16 +307,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 5
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 5
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 30
+		},
+		{
+			"username": "黑起",
+			"score": 15
+		},
+		{
+			"username": "竹剑",
+			"score": 30
 		}
 	],
 	"2021-11-06": [
 		{
 			"username": "liangle8090",
-			"score": 30
+			"score": 35
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 150
+			"score": 190
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -244,7 +344,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 0
+			"score": 20
 		},
 		{
 			"username": "竹剑道",
@@ -260,7 +360,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 10
+			"score": 55
 		},
 		{
 			"username": "jimixy",
@@ -273,58 +373,32 @@
 		{
 			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 5
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 5
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 30
+		},
+		{
+			"username": "黑起",
+			"score": 15
+		},
+		{
+			"username": "竹剑",
+			"score": 30
 		}
 	],
 	"2021-11-07": [
 		{
 			"username": "liangle8090",
-			"score": 30
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 200
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 0
-		},
-		{
-			"username": "味精王",
-			"score": 10
-		},
-		{
-			"username": "竹剑道",
-			"score": 0
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 0
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 20
-		},
-		{
-			"username": "jimixy",
-			"score": 0
-		},
-		{
-			"username": "pandapls",
-			"score": 10
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 20
-		}
-	],
-	"2021-11-08": [
-		{
-			"username": "liangle8090",
-			"score": 40
+			"score": 35
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
@@ -336,7 +410,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 10
+			"score": 30
 		},
 		{
 			"username": "竹剑道",
@@ -352,7 +426,73 @@
 		},
 		{
 			"username": "北斗落凡尘",
+			"score": 70
+		},
+		{
+			"username": "jimixy",
+			"score": 0
+		},
+		{
+			"username": "pandapls",
+			"score": 10
+		},
+		{
+			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 5
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 15
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 30
+		},
+		{
+			"username": "黑起",
+			"score": 20
+		},
+		{
+			"username": "竹剑",
+			"score": 30
+		}
+	],
+	"2021-11-08": [
+		{
+			"username": "liangle8090",
+			"score": 45
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 325
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 0
+		},
+		{
+			"username": "味精王",
+			"score": 35
+		},
+		{
+			"username": "竹剑道",
+			"score": 0
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 0
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 75
 		},
 		{
 			"username": "jimixy",
@@ -365,16 +505,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 5
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 15
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 30
+		},
+		{
+			"username": "黑起",
+			"score": 25
+		},
+		{
+			"username": "竹剑",
+			"score": 30
 		}
 	],
 	"2021-11-09": [
 		{
 			"username": "liangle8090",
-			"score": 50
+			"score": 55
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 250
+			"score": 340
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -382,7 +542,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 10
+			"score": 40
 		},
 		{
 			"username": "竹剑道",
@@ -398,7 +558,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 30
+			"score": 85
 		},
 		{
 			"username": "jimixy",
@@ -411,16 +571,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 5
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 15
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 30
+		},
+		{
+			"username": "黑起",
+			"score": 30
+		},
+		{
+			"username": "竹剑",
+			"score": 35
 		}
 	],
 	"2021-11-10": [
 		{
 			"username": "liangle8090",
-			"score": 60
+			"score": 65
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 260
+			"score": 355
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -428,7 +608,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 10
+			"score": 45
 		},
 		{
 			"username": "竹剑道",
@@ -444,7 +624,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 30
+			"score": 85
 		},
 		{
 			"username": "jimixy",
@@ -457,16 +637,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 5
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 15
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 30
+		},
+		{
+			"username": "黑起",
+			"score": 40
+		},
+		{
+			"username": "竹剑",
+			"score": 40
 		}
 	],
 	"2021-11-11": [
 		{
 			"username": "liangle8090",
-			"score": 60
+			"score": 70
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 290
+			"score": 400
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -474,7 +674,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 10
+			"score": 45
 		},
 		{
 			"username": "竹剑道",
@@ -490,7 +690,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 30
+			"score": 90
 		},
 		{
 			"username": "jimixy",
@@ -503,16 +703,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 15
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 15
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 30
+		},
+		{
+			"username": "黑起",
+			"score": 55
+		},
+		{
+			"username": "竹剑",
+			"score": 45
 		}
 	],
 	"2021-11-12": [
 		{
 			"username": "liangle8090",
-			"score": 70
+			"score": 80
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 290
+			"score": 405
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -520,7 +740,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 10
+			"score": 55
 		},
 		{
 			"username": "竹剑道",
@@ -536,7 +756,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 40
+			"score": 110
 		},
 		{
 			"username": "jimixy",
@@ -549,16 +769,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 15
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 15
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 30
+		},
+		{
+			"username": "黑起",
+			"score": 60
+		},
+		{
+			"username": "竹剑",
+			"score": 50
 		}
 	],
 	"2021-11-13": [
 		{
 			"username": "liangle8090",
-			"score": 70
+			"score": 85
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 320
+			"score": 440
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -566,7 +806,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 10
+			"score": 55
 		},
 		{
 			"username": "竹剑道",
@@ -582,7 +822,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 40
+			"score": 110
 		},
 		{
 			"username": "jimixy",
@@ -595,426 +835,32 @@
 		{
 			"username": "欧浪浪_",
 			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 20
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 15
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 35
+		},
+		{
+			"username": "黑起",
+			"score": 70
+		},
+		{
+			"username": "竹剑",
+			"score": 50
 		}
 	],
 	"2021-11-14": [
 		{
 			"username": "liangle8090",
-			"score": 70
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 360
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 40
-		},
-		{
-			"username": "味精王",
-			"score": 10
-		},
-		{
-			"username": "竹剑道",
-			"score": 0
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 140
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 40
-		},
-		{
-			"username": "jimixy",
-			"score": 10
-		},
-		{
-			"username": "pandapls",
-			"score": 10
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 20
-		}
-	],
-	"2021-11-15": [
-		{
-			"username": "liangle8090",
-			"score": 70
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 370
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 40
-		},
-		{
-			"username": "味精王",
-			"score": 20
-		},
-		{
-			"username": "竹剑道",
-			"score": 0
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 140
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 40
-		},
-		{
-			"username": "jimixy",
-			"score": 10
-		},
-		{
-			"username": "pandapls",
-			"score": 10
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 20
-		}
-	],
-	"2021-11-16": [
-		{
-			"username": "liangle8090",
-			"score": 70
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 410
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 60
-		},
-		{
-			"username": "味精王",
-			"score": 20
-		},
-		{
-			"username": "竹剑道",
-			"score": 0
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 140
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 50
-		},
-		{
-			"username": "jimixy",
-			"score": 10
-		},
-		{
-			"username": "pandapls",
-			"score": 10
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 20
-		}
-	],
-	"2021-11-17": [
-		{
-			"username": "liangle8090",
-			"score": 80
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 430
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 70
-		},
-		{
-			"username": "味精王",
-			"score": 20
-		},
-		{
-			"username": "竹剑道",
-			"score": 10
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 140
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 50
-		},
-		{
-			"username": "jimixy",
-			"score": 10
-		},
-		{
-			"username": "pandapls",
-			"score": 10
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-18": [
-		{
-			"username": "liangle8090",
-			"score": 90
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 460
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 80
-		},
-		{
-			"username": "味精王",
-			"score": 20
-		},
-		{
-			"username": "竹剑道",
-			"score": 20
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 140
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 60
-		},
-		{
-			"username": "jimixy",
-			"score": 10
-		},
-		{
-			"username": "pandapls",
-			"score": 10
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-19": [
-		{
-			"username": "liangle8090",
-			"score": 90
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 460
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 80
-		},
-		{
-			"username": "味精王",
-			"score": 20
-		},
-		{
-			"username": "竹剑道",
-			"score": 40
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 140
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 60
-		},
-		{
-			"username": "jimixy",
-			"score": 10
-		},
-		{
-			"username": "pandapls",
-			"score": 10
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-20": [
-		{
-			"username": "liangle8090",
-			"score": 90
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 460
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 80
-		},
-		{
-			"username": "味精王",
-			"score": 20
-		},
-		{
-			"username": "竹剑道",
-			"score": 40
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 140
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 60
-		},
-		{
-			"username": "jimixy",
-			"score": 10
-		},
-		{
-			"username": "pandapls",
-			"score": 30
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-21": [
-		{
-			"username": "liangle8090",
-			"score": 90
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 460
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 100
-		},
-		{
-			"username": "味精王",
-			"score": 30
-		},
-		{
-			"username": "竹剑道",
-			"score": 40
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 220
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 60
-		},
-		{
-			"username": "jimixy",
-			"score": 20
-		},
-		{
-			"username": "pandapls",
-			"score": 30
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-22": [
-		{
-			"username": "liangle8090",
-			"score": 100
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 460
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 130
-		},
-		{
-			"username": "味精王",
-			"score": 30
-		},
-		{
-			"username": "竹剑道",
-			"score": 40
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 220
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 60
-		},
-		{
-			"username": "jimixy",
-			"score": 20
-		},
-		{
-			"username": "pandapls",
-			"score": 30
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-23": [
-		{
-			"username": "liangle8090",
-			"score": 110
+			"score": 85
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
@@ -1022,15 +868,15 @@
 		},
 		{
 			"username": "无可匹敌的黑起",
-			"score": 140
+			"score": 40
 		},
 		{
 			"username": "味精王",
-			"score": 30
+			"score": 55
 		},
 		{
 			"username": "竹剑道",
-			"score": 50
+			"score": 0
 		},
 		{
 			"username": "Django_D",
@@ -1038,45 +884,65 @@
 		},
 		{
 			"username": "rhythm022",
-			"score": 220
+			"score": 140
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 60
-		},
-		{
-			"username": "jimixy",
-			"score": 20
-		},
-		{
-			"username": "pandapls",
-			"score": 30
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-24": [
-		{
-			"username": "liangle8090",
 			"score": 110
 		},
 		{
+			"username": "jimixy",
+			"score": 10
+		},
+		{
+			"username": "pandapls",
+			"score": 10
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 25
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 75
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 35
+		},
+		{
+			"username": "黑起",
+			"score": 75
+		},
+		{
+			"username": "竹剑",
+			"score": 60
+		}
+	],
+	"2021-11-15": [
+		{
+			"username": "liangle8090",
+			"score": 85
+		},
+		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 530
+			"score": 515
 		},
 		{
 			"username": "无可匹敌的黑起",
-			"score": 140
+			"score": 40
 		},
 		{
 			"username": "味精王",
-			"score": 30
+			"score": 70
 		},
 		{
 			"username": "竹剑道",
-			"score": 50
+			"score": 0
 		},
 		{
 			"username": "Django_D",
@@ -1084,45 +950,131 @@
 		},
 		{
 			"username": "rhythm022",
-			"score": 220
+			"score": 140
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 70
-		},
-		{
-			"username": "jimixy",
-			"score": 20
-		},
-		{
-			"username": "pandapls",
-			"score": 30
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-25": [
-		{
-			"username": "liangle8090",
 			"score": 120
 		},
 		{
+			"username": "jimixy",
+			"score": 10
+		},
+		{
+			"username": "pandapls",
+			"score": 10
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 25
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 85
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 35
+		},
+		{
+			"username": "黑起",
+			"score": 85
+		},
+		{
+			"username": "竹剑",
+			"score": 65
+		}
+	],
+	"2021-11-16": [
+		{
+			"username": "liangle8090",
+			"score": 85
+		},
+		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 530
+			"score": 575
 		},
 		{
 			"username": "无可匹敌的黑起",
+			"score": 60
+		},
+		{
+			"username": "味精王",
+			"score": 70
+		},
+		{
+			"username": "竹剑道",
+			"score": 0
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
 			"score": 140
 		},
 		{
+			"username": "北斗落凡尘",
+			"score": 135
+		},
+		{
+			"username": "jimixy",
+			"score": 10
+		},
+		{
+			"username": "pandapls",
+			"score": 10
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 20
+		},
+		{
+			"username": "猎豹",
+			"score": 25
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 95
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 35
+		},
+		{
+			"username": "黑起",
+			"score": 90
+		},
+		{
+			"username": "竹剑",
+			"score": 70
+		}
+	],
+	"2021-11-17": [
+		{
+			"username": "liangle8090",
+			"score": 95
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 605
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 70
+		},
+		{
 			"username": "味精王",
-			"score": 30
+			"score": 70
 		},
 		{
 			"username": "竹剑道",
-			"score": 50
+			"score": 10
 		},
 		{
 			"username": "Django_D",
@@ -1130,45 +1082,65 @@
 		},
 		{
 			"username": "rhythm022",
-			"score": 220
+			"score": 140
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 70
+			"score": 140
 		},
 		{
 			"username": "jimixy",
-			"score": 20
+			"score": 10
 		},
 		{
 			"username": "pandapls",
-			"score": 30
+			"score": 10
 		},
 		{
 			"username": "欧浪浪_",
 			"score": 30
-		}
-	],
-	"2021-11-26": [
-		{
-			"username": "liangle8090",
-			"score": 130
 		},
 		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 570
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 150
-		},
-		{
-			"username": "味精王",
+			"username": "猎豹",
 			"score": 30
 		},
 		{
+			"username": "进击的阿木木",
+			"score": 110
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 40
+		},
+		{
+			"username": "黑起",
+			"score": 95
+		},
+		{
+			"username": "竹剑",
+			"score": 75
+		}
+	],
+	"2021-11-18": [
+		{
+			"username": "liangle8090",
+			"score": 105
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 650
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 80
+		},
+		{
+			"username": "味精王",
+			"score": 75
+		},
+		{
 			"username": "竹剑道",
-			"score": 60
+			"score": 20
 		},
 		{
 			"username": "Django_D",
@@ -1176,45 +1148,197 @@
 		},
 		{
 			"username": "rhythm022",
-			"score": 220
+			"score": 140
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 70
+			"score": 155
 		},
 		{
 			"username": "jimixy",
-			"score": 20
+			"score": 10
 		},
 		{
 			"username": "pandapls",
-			"score": 30
+			"score": 10
 		},
 		{
 			"username": "欧浪浪_",
 			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 30
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 115
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 45
+		},
+		{
+			"username": "黑起",
+			"score": 100
+		},
+		{
+			"username": "竹剑",
+			"score": 80
 		}
 	],
-	"2021-11-27": [
+	"2021-11-19": [
 		{
 			"username": "liangle8090",
-			"score": 130
+			"score": 105
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 620
+			"score": 655
 		},
 		{
 			"username": "无可匹敌的黑起",
+			"score": 80
+		},
+		{
+			"username": "味精王",
+			"score": 75
+		},
+		{
+			"username": "竹剑道",
+			"score": 40
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 140
+		},
+		{
+			"username": "北斗落凡尘",
 			"score": 160
 		},
 		{
-			"username": "味精王",
+			"username": "jimixy",
+			"score": 10
+		},
+		{
+			"username": "pandapls",
+			"score": 10
+		},
+		{
+			"username": "欧浪浪_",
 			"score": 30
 		},
 		{
+			"username": "猎豹",
+			"score": 35
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 120
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 50
+		},
+		{
+			"username": "黑起",
+			"score": 105
+		},
+		{
+			"username": "竹剑",
+			"score": 85
+		}
+	],
+	"2021-11-20": [
+		{
+			"username": "liangle8090",
+			"score": 105
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 660
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 80
+		},
+		{
+			"username": "味精王",
+			"score": 75
+		},
+		{
 			"username": "竹剑道",
-			"score": 60
+			"score": 40
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 140
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 170
+		},
+		{
+			"username": "jimixy",
+			"score": 10
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 35
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 160
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 65
+		},
+		{
+			"username": "黑起",
+			"score": 115
+		},
+		{
+			"username": "竹剑",
+			"score": 85
+		}
+	],
+	"2021-11-21": [
+		{
+			"username": "liangle8090",
+			"score": 105
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 665
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 100
+		},
+		{
+			"username": "味精王",
+			"score": 85
+		},
+		{
+			"username": "竹剑道",
+			"score": 40
 		},
 		{
 			"username": "Django_D",
@@ -1226,7 +1350,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 70
+			"score": 185
 		},
 		{
 			"username": "jimixy",
@@ -1239,104 +1363,32 @@
 		{
 			"username": "欧浪浪_",
 			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 35
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 160
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 70
+		},
+		{
+			"username": "黑起",
+			"score": 120
+		},
+		{
+			"username": "竹剑",
+			"score": 85
 		}
 	],
-	"2021-11-28": [
+	"2021-11-22": [
 		{
 			"username": "liangle8090",
-			"score": 130
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 650
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 170
-		},
-		{
-			"username": "味精王",
-			"score": 40
-		},
-		{
-			"username": "竹剑道",
-			"score": 70
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 220
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 70
-		},
-		{
-			"username": "jimixy",
-			"score": 30
-		},
-		{
-			"username": "pandapls",
-			"score": 30
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-29": [
-		{
-			"username": "liangle8090",
-			"score": 130
-		},
-		{
-			"username": "前端-奔跑的蜗牛",
-			"score": 650
-		},
-		{
-			"username": "无可匹敌的黑起",
-			"score": 170
-		},
-		{
-			"username": "味精王",
-			"score": 40
-		},
-		{
-			"username": "竹剑道",
-			"score": 70
-		},
-		{
-			"username": "Django_D",
-			"score": 10
-		},
-		{
-			"username": "rhythm022",
-			"score": 220
-		},
-		{
-			"username": "北斗落凡尘",
-			"score": 70
-		},
-		{
-			"username": "jimixy",
-			"score": 30
-		},
-		{
-			"username": "pandapls",
-			"score": 30
-		},
-		{
-			"username": "欧浪浪_",
-			"score": 30
-		}
-	],
-	"2021-11-30": [
-		{
-			"username": "liangle8090",
-			"score": 130
+			"score": 115
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
@@ -1344,11 +1396,407 @@
 		},
 		{
 			"username": "无可匹敌的黑起",
+			"score": 130
+		},
+		{
+			"username": "味精王",
+			"score": 85
+		},
+		{
+			"username": "竹剑道",
+			"score": 40
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 190
+		},
+		{
+			"username": "jimixy",
+			"score": 20
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 35
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 160
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 75
+		},
+		{
+			"username": "黑起",
+			"score": 125
+		},
+		{
+			"username": "竹剑",
+			"score": 90
+		}
+	],
+	"2021-11-23": [
+		{
+			"username": "liangle8090",
+			"score": 130
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 715
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 140
+		},
+		{
+			"username": "味精王",
+			"score": 85
+		},
+		{
+			"username": "竹剑道",
+			"score": 50
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 195
+		},
+		{
+			"username": "jimixy",
+			"score": 20
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 35
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 175
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 85
+		},
+		{
+			"username": "黑起",
+			"score": 130
+		},
+		{
+			"username": "竹剑",
+			"score": 95
+		}
+	],
+	"2021-11-24": [
+		{
+			"username": "liangle8090",
+			"score": 135
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 755
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 140
+		},
+		{
+			"username": "味精王",
+			"score": 90
+		},
+		{
+			"username": "竹剑道",
+			"score": 50
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 210
+		},
+		{
+			"username": "jimixy",
+			"score": 20
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 185
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 90
+		},
+		{
+			"username": "黑起",
+			"score": 135
+		},
+		{
+			"username": "竹剑",
+			"score": 95
+		}
+	],
+	"2021-11-25": [
+		{
+			"username": "liangle8090",
+			"score": 155
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 765
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 140
+		},
+		{
+			"username": "味精王",
+			"score": 90
+		},
+		{
+			"username": "竹剑道",
+			"score": 50
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 215
+		},
+		{
+			"username": "jimixy",
+			"score": 20
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 200
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 95
+		},
+		{
+			"username": "黑起",
+			"score": 145
+		},
+		{
+			"username": "竹剑",
+			"score": 100
+		}
+	],
+	"2021-11-26": [
+		{
+			"username": "liangle8090",
+			"score": 175
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 825
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 150
+		},
+		{
+			"username": "味精王",
+			"score": 95
+		},
+		{
+			"username": "竹剑道",
+			"score": 60
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 225
+		},
+		{
+			"username": "jimixy",
+			"score": 20
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 210
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 95
+		},
+		{
+			"username": "黑起",
+			"score": 150
+		},
+		{
+			"username": "竹剑",
+			"score": 105
+		}
+	],
+	"2021-11-27": [
+		{
+			"username": "liangle8090",
+			"score": 185
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 890
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 160
+		},
+		{
+			"username": "味精王",
+			"score": 95
+		},
+		{
+			"username": "竹剑道",
+			"score": 60
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 230
+		},
+		{
+			"username": "jimixy",
+			"score": 20
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 220
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 100
+		},
+		{
+			"username": "黑起",
+			"score": 155
+		},
+		{
+			"username": "竹剑",
+			"score": 110
+		}
+	],
+	"2021-11-28": [
+		{
+			"username": "liangle8090",
+			"score": 200
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 935
+		},
+		{
+			"username": "无可匹敌的黑起",
 			"score": 170
 		},
 		{
 			"username": "味精王",
-			"score": 50
+			"score": 105
 		},
 		{
 			"username": "竹剑道",
@@ -1364,7 +1812,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 70
+			"score": 245
 		},
 		{
 			"username": "jimixy",
@@ -1377,16 +1825,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 230
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 100
+		},
+		{
+			"username": "黑起",
+			"score": 175
+		},
+		{
+			"username": "竹剑",
+			"score": 110
 		}
 	],
-	"2021-12-01": [
+	"2021-11-29": [
 		{
 			"username": "liangle8090",
-			"score": 130
+			"score": 210
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 690
+			"score": 935
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -1394,7 +1862,139 @@
 		},
 		{
 			"username": "味精王",
-			"score": 50
+			"score": 105
+		},
+		{
+			"username": "竹剑道",
+			"score": 70
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 250
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 240
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 100
+		},
+		{
+			"username": "黑起",
+			"score": 205
+		},
+		{
+			"username": "竹剑",
+			"score": 120
+		}
+	],
+	"2021-11-30": [
+		{
+			"username": "liangle8090",
+			"score": 220
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 965
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 170
+		},
+		{
+			"username": "味精王",
+			"score": 115
+		},
+		{
+			"username": "竹剑道",
+			"score": 70
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 250
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 260
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 100
+		},
+		{
+			"username": "黑起",
+			"score": 220
+		},
+		{
+			"username": "竹剑",
+			"score": 130
+		}
+	],
+	"2021-12-01": [
+		{
+			"username": "liangle8090",
+			"score": 220
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 995
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 170
+		},
+		{
+			"username": "味精王",
+			"score": 115
 		},
 		{
 			"username": "竹剑道",
@@ -1410,7 +2010,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 70
+			"score": 265
 		},
 		{
 			"username": "jimixy",
@@ -1423,16 +2023,36 @@
 		{
 			"username": "欧浪浪_",
 			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 275
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 100
+		},
+		{
+			"username": "黑起",
+			"score": 225
+		},
+		{
+			"username": "竹剑",
+			"score": 145
 		}
 	],
 	"2021-12-02": [
 		{
 			"username": "liangle8090",
-			"score": 130
+			"score": 225
 		},
 		{
 			"username": "前端-奔跑的蜗牛",
-			"score": 730
+			"score": 1055
 		},
 		{
 			"username": "无可匹敌的黑起",
@@ -1440,7 +2060,7 @@
 		},
 		{
 			"username": "味精王",
-			"score": 50
+			"score": 115
 		},
 		{
 			"username": "竹剑道",
@@ -1456,7 +2076,7 @@
 		},
 		{
 			"username": "北斗落凡尘",
-			"score": 70
+			"score": 270
 		},
 		{
 			"username": "jimixy",
@@ -1469,6 +2089,950 @@
 		{
 			"username": "欧浪浪_",
 			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 290
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 100
+		},
+		{
+			"username": "黑起",
+			"score": 245
+		},
+		{
+			"username": "竹剑",
+			"score": 160
+		}
+	],
+	"2021-12-03": [
+		{
+			"username": "liangle8090",
+			"score": 240
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1085
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 220
+		},
+		{
+			"username": "味精王",
+			"score": 115
+		},
+		{
+			"username": "竹剑道",
+			"score": 90
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 280
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 295
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 100
+		},
+		{
+			"username": "黑起",
+			"score": 250
+		},
+		{
+			"username": "竹剑",
+			"score": 170
+		}
+	],
+	"2021-12-04": [
+		{
+			"username": "liangle8090",
+			"score": 250
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1125
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 220
+		},
+		{
+			"username": "味精王",
+			"score": 115
+		},
+		{
+			"username": "竹剑道",
+			"score": 90
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 295
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 300
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 105
+		},
+		{
+			"username": "黑起",
+			"score": 250
+		},
+		{
+			"username": "竹剑",
+			"score": 170
+		}
+	],
+	"2021-12-05": [
+		{
+			"username": "liangle8090",
+			"score": 250
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1170
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 220
+		},
+		{
+			"username": "味精王",
+			"score": 115
+		},
+		{
+			"username": "竹剑道",
+			"score": 90
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 220
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 305
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 300
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 105
+		},
+		{
+			"username": "黑起",
+			"score": 250
+		},
+		{
+			"username": "竹剑",
+			"score": 170
+		}
+	],
+	"2021-12-06": [
+		{
+			"username": "liangle8090",
+			"score": 255
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1170
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 220
+		},
+		{
+			"username": "味精王",
+			"score": 120
+		},
+		{
+			"username": "竹剑道",
+			"score": 90
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 315
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 325
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 110
+		},
+		{
+			"username": "黑起",
+			"score": 250
+		},
+		{
+			"username": "竹剑",
+			"score": 170
+		}
+	],
+	"2021-12-07": [
+		{
+			"username": "liangle8090",
+			"score": 265
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1230
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 220
+		},
+		{
+			"username": "味精王",
+			"score": 125
+		},
+		{
+			"username": "竹剑道",
+			"score": 90
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 320
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 340
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 110
+		},
+		{
+			"username": "黑起",
+			"score": 260
+		},
+		{
+			"username": "竹剑",
+			"score": 170
+		}
+	],
+	"2021-12-08": [
+		{
+			"username": "liangle8090",
+			"score": 265
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1290
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 220
+		},
+		{
+			"username": "味精王",
+			"score": 130
+		},
+		{
+			"username": "竹剑道",
+			"score": 100
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 325
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 355
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 110
+		},
+		{
+			"username": "黑起",
+			"score": 260
+		},
+		{
+			"username": "竹剑",
+			"score": 170
+		}
+	],
+	"2021-12-09": [
+		{
+			"username": "liangle8090",
+			"score": 280
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1335
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 250
+		},
+		{
+			"username": "味精王",
+			"score": 130
+		},
+		{
+			"username": "竹剑道",
+			"score": 110
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 340
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 360
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 115
+		},
+		{
+			"username": "黑起",
+			"score": 270
+		},
+		{
+			"username": "竹剑",
+			"score": 175
+		}
+	],
+	"2021-12-10": [
+		{
+			"username": "liangle8090",
+			"score": 285
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1335
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 250
+		},
+		{
+			"username": "味精王",
+			"score": 130
+		},
+		{
+			"username": "竹剑道",
+			"score": 110
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 350
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 30
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 365
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 115
+		},
+		{
+			"username": "黑起",
+			"score": 280
+		},
+		{
+			"username": "竹剑",
+			"score": 175
+		}
+	],
+	"2021-12-11": [
+		{
+			"username": "liangle8090",
+			"score": 290
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1395
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 250
+		},
+		{
+			"username": "味精王",
+			"score": 130
+		},
+		{
+			"username": "竹剑道",
+			"score": 110
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 365
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 40
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 365
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 115
+		},
+		{
+			"username": "黑起",
+			"score": 285
+		},
+		{
+			"username": "竹剑",
+			"score": 180
+		}
+	],
+	"2021-12-12": [
+		{
+			"username": "liangle8090",
+			"score": 290
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1410
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 250
+		},
+		{
+			"username": "味精王",
+			"score": 155
+		},
+		{
+			"username": "竹剑道",
+			"score": 110
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 365
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 40
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 385
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 120
+		},
+		{
+			"username": "黑起",
+			"score": 285
+		},
+		{
+			"username": "竹剑",
+			"score": 180
+		}
+	],
+	"2021-12-13": [
+		{
+			"username": "liangle8090",
+			"score": 290
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1420
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 250
+		},
+		{
+			"username": "味精王",
+			"score": 155
+		},
+		{
+			"username": "竹剑道",
+			"score": 110
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 365
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 40
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 410
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 120
+		},
+		{
+			"username": "黑起",
+			"score": 285
+		},
+		{
+			"username": "竹剑",
+			"score": 180
+		}
+	],
+	"2021-12-14": [
+		{
+			"username": "liangle8090",
+			"score": 325
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1485
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 250
+		},
+		{
+			"username": "味精王",
+			"score": 155
+		},
+		{
+			"username": "竹剑道",
+			"score": 110
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 365
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 40
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 415
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 125
+		},
+		{
+			"username": "黑起",
+			"score": 290
+		},
+		{
+			"username": "竹剑",
+			"score": 185
+		}
+	],
+	"2021-12-15": [
+		{
+			"username": "liangle8090",
+			"score": 355
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1500
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 250
+		},
+		{
+			"username": "味精王",
+			"score": 155
+		},
+		{
+			"username": "竹剑道",
+			"score": 110
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 365
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 40
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 425
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 130
+		},
+		{
+			"username": "黑起",
+			"score": 300
+		},
+		{
+			"username": "竹剑",
+			"score": 190
+		}
+	],
+	"2021-12-16": [
+		{
+			"username": "liangle8090",
+			"score": 355
+		},
+		{
+			"username": "前端-奔跑的蜗牛",
+			"score": 1500
+		},
+		{
+			"username": "无可匹敌的黑起",
+			"score": 250
+		},
+		{
+			"username": "味精王",
+			"score": 155
+		},
+		{
+			"username": "竹剑道",
+			"score": 110
+		},
+		{
+			"username": "Django_D",
+			"score": 10
+		},
+		{
+			"username": "rhythm022",
+			"score": 340
+		},
+		{
+			"username": "北斗落凡尘",
+			"score": 365
+		},
+		{
+			"username": "jimixy",
+			"score": 30
+		},
+		{
+			"username": "pandapls",
+			"score": 40
+		},
+		{
+			"username": "欧浪浪_",
+			"score": 30
+		},
+		{
+			"username": "猎豹",
+			"score": 40
+		},
+		{
+			"username": "进击的阿木木",
+			"score": 425
+		},
+		{
+			"username": "活捉一只小星星",
+			"score": 130
+		},
+		{
+			"username": "黑起",
+			"score": 310
+		},
+		{
+			"username": "竹剑",
+			"score": 190
 		}
 	]
 }

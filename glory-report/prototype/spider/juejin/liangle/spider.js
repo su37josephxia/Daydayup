@@ -1,41 +1,68 @@
 /**
  * 拿Django的文件改造的
  */
-const cheerio = require("cheerio");
 const send = require('../../common/http');
+const moment = require('moment')
+
+getJuejinList = async function (source) {
+  let pn = 0;
+  let ps = 10;
+  let count = 0;
+  let list = []
+
+  const params = {
+    cursor: "0",
+    sort_type: 2,
+    "user_id": source.user_id
+  }
+
+  while ((pn - 1) * ps < count) {
+    await _get(source);
+    pn++
+    params.cursor = `${pn * ps}`
+  }
+
+  async function _get(source) {
+    const data = await send('https://api.juejin.cn/content_api/v1/article/query_list', "POST", params, false);
+    return new Promise((resolve, reject) => {
+      const vlist = data.data;
+      if (vlist) {
+        vlist.forEach(item => {
+          list.unshift({
+            author: source.username,
+            title: item.article_info.title,
+            description: item.article_info.brief_content,
+            url: `https://juejin.cn/post/${item.article_id}`,
+            created: new Date(item.article_info.ctime * 1000)
+          })
+        });
+        count = data.count;
+      }
+      resolve(list)
+    })
+  }
+  return list
+}
 
 const juejinSpider = function () {
   return {
     fetchData: async function (source) {
-      const body = await send(source.url, "GET", {}, false);
-      const $ = cheerio.load(body);
-      // 观看数
-      let view_count;
-      // 点赞数
-      let digg_count;
-      $("script").map((i, el) => {
-        if (!el.attribs.src) {
-          let text = $(el)[0].children[0] ? $(el)[0].children[0].data : "";
-          // 避免污染全局
-          text = `const proxy = arguments[0]; (function(window){${text}})(proxy)`;
-          // 代理 window
-          let proxy = {};
-          const newFunction = new Function(text);
-          newFunction(proxy);
-          if (proxy.__NUXT__) {
-            const entry = proxy.__NUXT__.state.view.column.entry
-            if (entry.article_info) {
-              view_count = entry.article_info.view_count;
-              digg_count = entry.article_info.digg_count;
-            }
-          }
-        }
-      });
+      return new Promise((resolve, reject) => {
+        getJuejinList(source).then(res => {
+          const rows = []
+          res.forEach(item => {
+            rows.push({
+              title: item.title,
+              url: item.url,
+              created: moment(item.created).format('YYYY-MM-DD'),
+              username: item.author,
+              source_type: source.source_type
+            })
+          });
 
-      return {
-        view_count,
-        digg_count
-      };
+          resolve(rows)
+        })
+      })
     },
   }
 }

@@ -116,7 +116,7 @@ const spiderTask = function () {
 
     //修复数据，某天没人得分时，取前一天分数
     let res = {}
-    let prev = null
+    let prev = []
     for (let [key, value] of scores) {
       if (value.filter((score) => score.score > 0).length === 0) {
         scores.set(key, prev)
