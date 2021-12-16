@@ -79,7 +79,7 @@ const getSources = function () {
       source_type: source_type.juejin,
       user_id: "78820569261992"
     }, {
-      username: '黑起',
+      username: '无可匹敌的黑起',
       source_type: source_type.juejin,
       user_id: "870468940477240"
     }, {

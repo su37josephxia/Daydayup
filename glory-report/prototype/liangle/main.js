@@ -19,7 +19,7 @@ const spiderTask = function () {
   this.sources = getSources()
 
   this.start = async function () {
-    //把历史的数据清楚，全量更新
+    //把历史的数据清除，全量更新
     const filename = `${moment(Date.now()).format('YYYY-MM-DD')}.json`
     const dataPath = `/data/${filename}`
     const scorePath = `/data/score.json`
