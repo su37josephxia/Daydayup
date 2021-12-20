@@ -1,12 +1,16 @@
 const request = require("request");
 
-const send = async function (url, method, formData = {}, json = true) {
+const send = async function (url, method, params = {}, json = true) {
   return new Promise((resolve, reject) => {
     request({
         url,
         method,
         json,
-        formData,
+        json: true,
+        headers: {
+          "content-type": "application/json",
+        },
+        body: params,
       },
       async (error, _, body) => {
         if (!error) {
